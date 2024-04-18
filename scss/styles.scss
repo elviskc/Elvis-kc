@@ -32,13 +32,19 @@
     ----- 1. Variables -----
     ------------------------
 */
+FKSAD=
+
+body {
+    background-color: red;
+    background: #2f881f;
+}
 
 // Define base and accent colors
 $base-color: #bd4557;
 $base-color-hover: darken($base-color, 10%);
 
 // Define background colors
-$background: #9a9b42;
+$background: #000000;
 $background-alt: #f2f2f5;
 
 // Define border colors
@@ -46,7 +52,7 @@ $border: #dcd9d9;
 
 // Define text colors
 $heading: #374054;
-$text: #5050a4;
+$text: #ff0b0b;
 
 /*
     ---------------------
@@ -99,7 +105,7 @@ body {
 .no-js {
     #experience-timeline {
         > div {
-            background: $background;
+            background: red($color: #000000);
             padding: 10px;
             margin-bottom: 10px;
             border: 1px solid $border;
@@ -155,7 +161,7 @@ header {
 
     ul {
         display: inline-block;
-        background: $background;
+        background: red($color: #000000);
         text-align: center;
         padding: 10px;
         margin: 0;
@@ -999,4 +1005,8 @@ footer {
         }
     }
 
+    body {
+        background-color: $background;
+    }
+    
 }
