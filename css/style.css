@@ -3,19 +3,19 @@
 /**********************************/
 body {
     color: #666666;
-    background: #F6D155;
+    background: #f7f7f7;
     font-family: 'Open Sans', sans-serif;
 }
 
 a {
-    color: #222222;
+    color: #000000;
     transition: all .3s;
 }
 
 a:hover,
 a:active,
 a:focus {
-    color: #FF6F61;
+    color: #8a0f04;
     outline: none;
     text-decoration: none;
 }
@@ -47,7 +47,7 @@ a:focus {
     width: 100%;
     padding: 15px;
     float: left;
-    background: #F6D155;
+    background: #8a7a93;
 }
 
 .wrapper .sidebar-header,
@@ -57,7 +57,7 @@ a:focus {
 
 .navbar {
     padding: 15px;
-    background: #222222 !important;
+    background: #000000 !important;
 }
 
 .navbar-expand-md .navbar-nav .nav-item {
@@ -112,7 +112,7 @@ a:focus {
         content: "";
         width: 100%;
         height: 30px;
-        background: #F6D155;
+        background: #97a2f1;
         z-index: 1;
     }
     
@@ -350,22 +350,22 @@ a:focus {
 
 .large-btn .content-inner {
     font-size: 0;
-    border-bottom: 30px solid #F6D155;
+    border-bottom: 30px solid #0eb185;
 }
 
 .large-btn .btn {
     position: relative;
     width: 50%;
     padding: 15px 0;
-    color: #FF6F61;
+    color: #ffffff;
     font-size: 20px;
-    background: #222222;
+    background: #000000;
     border-radius: 0;
 }
 
 .large-btn .btn:last-child {
     color: #222222;
-    background: #FF6F61;
+    background: #ffffff;
 }
 
 .large-btn .btn i {
@@ -425,7 +425,7 @@ a:focus {
     position: relative;
     padding: 60px 30px;
     background: #ffffff;
-    border-bottom: 30px solid #F6D155;
+    border-bottom: 30px solid #000000;
 }
 
 
@@ -566,7 +566,7 @@ a:focus {
     position: relative;
     padding: 60px 30px;
     background: #ffffff;
-    border-bottom: 30px solid #F6D155;
+    border-bottom: 30px solid #000000;
 }
 
 .experience .exp-col {
